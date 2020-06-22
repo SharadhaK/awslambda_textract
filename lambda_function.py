@@ -49,7 +49,7 @@ def send_scp(kvs,vendorname):
     invoiceDate = ''
     Amount = ''
     dueDate = ''
-    url = "https://7dab015dtrial-dev-invoices-srv.cfapps.eu10.hana.ondemand.com/browse/Invoices"
+    url = "https://xxxxx-invoices-srv.cfapps.eu10.hana.ondemand.com/browse/Invoices"
             
     for key in kvs: 
         if key.startswith("Invoice reference:") or key.startswith("Invoice #"):
